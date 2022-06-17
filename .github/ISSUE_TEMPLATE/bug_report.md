@@ -3,7 +3,7 @@ name: Bug report
 about: Create a report to help us improve
 title: "[domain] 기능 설명"
 labels: ''
-assignees: ''
+assignees: zxcv9203
 
 ---
 
