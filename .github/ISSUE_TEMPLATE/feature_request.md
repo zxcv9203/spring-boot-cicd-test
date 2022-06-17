@@ -1,7 +1,7 @@
 ---
 name: Feature request
 about: Suggest an idea for this project
-title: ''
+title: "[domain 이름] 추가 기능 내용"
 labels: ''
 assignees: ''
 
