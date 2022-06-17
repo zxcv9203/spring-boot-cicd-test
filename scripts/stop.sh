@@ -9,9 +9,9 @@ RUNNING_PID=$(pgrep -f $JAR_FILE)
 
 NOW=$(date +%c)
 
-if [-z j$CUREENT_PID]; then
+if [-z $CUREENT_PID]; then
   echo "[$NOW] 현재 실행중인 애플리케이션이 없습니다." >>$DEPLOY_LOG
 else
-  echo "[$NOW] 실행중인 $RUNNING_PID 애플리케이션을 종료합니다." >>DEPLOY_LOG
+  echo "[$NOW] 실행중인 $RUNNING_PID 애플리케이션을 종료합니다." >> $DEPLOY_LOG
   kill -15 $CUREENT_PID
 fi
